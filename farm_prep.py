@@ -113,7 +113,7 @@ layer_provider.addAttributes([QgsField('name', QVariant.String), QgsField('categ
 layer.updateFields
 print(layer.fields().names())
 
-#  Copy Farm_Name to t4a_name field. Set "category_id" = 95
+#  Copy Farm_Name to name field. Set "category_id" = 95
 
 expression1 = QgsExpression('Farm_Name')
 expression2 = QgsExpression('95')
